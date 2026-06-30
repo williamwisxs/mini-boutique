@@ -1,0 +1,48 @@
+export const products = [
+  {
+    id: 1,
+    name: 'Ordinateur portable',
+    price: 899,
+    category: 'Informatique',
+    image: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400&h=270&fit=crop',
+    description: 'Un ordinateur performant pour les projets React.',
+    available: true,
+  },
+  {
+    id: 2,
+    name: 'Souris sans fil',
+    price: 29,
+    category: 'Accessoires',
+    image: 'https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400&h=270&fit=crop',
+    description: 'Une souris legere et pratique au quotidien.',
+    available: true,
+  },
+  {
+    id: 3,
+    name: 'Clavier mecanique',
+    price: 79,
+    category: 'Accessoires',
+    image: 'https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=400&h=270&fit=crop',
+    description: 'Un clavier confortable pour coder.',
+    available: false,
+  },
+  {
+    id: 4,
+    name: 'Ecran 27 pouces',
+    price: 349,
+    category: 'Informatique',
+    image: 'https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=400&h=270&fit=crop',
+    description: 'Un ecran large ideal pour travailler en multitache.',
+    available: true,
+  },
+  {
+    id: 5,
+    name: 'Casque audio',
+    price: 59,
+    category: 'Audio',
+    image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=270&fit=crop',
+    description: 'Un casque confortable pour la musique et les appels.',
+    available: false,
+  },
+]
+
